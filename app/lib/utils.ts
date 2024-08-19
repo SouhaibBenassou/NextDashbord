@@ -33,6 +33,7 @@ export const generateYAxis = (revenue: Revenue[]) => {
   }
 
   return { yAxisLabels, topLabel };
+  
 };
 
 export const generatePagination = (currentPage: number, totalPages: number) => {
